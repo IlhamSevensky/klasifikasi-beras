@@ -143,7 +143,7 @@ def upload_file():
         if file.filename == '':
             reply = {
                 "success" : False,
-                "message" : "Berkas tidak terkirim",
+                "message" : "Nama file kosong, berkas tidak terkirim",
                 "class" : "Z"
             }
             return jsonify(reply)
